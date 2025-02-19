@@ -9,6 +9,7 @@ TagManager:
   - BossBullet
   - PlayerBullet
   - DeathBackground
+  - Box
   layers:
   - Default
   - TransparentFX
