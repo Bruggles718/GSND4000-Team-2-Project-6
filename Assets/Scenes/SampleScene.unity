@@ -382,7 +382,7 @@ GameObject:
   - component: {fileID: 229486787}
   m_Layer: 9
   m_Name: Door
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -716,7 +716,7 @@ GameObject:
   - component: {fileID: 252933398}
   m_Layer: 9
   m_Name: Tilemap
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3538,6 +3538,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1516289889664950583, guid: 3f9d0c73bdb34c845bff34c743438959, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4013344508932814771, guid: 3f9d0c73bdb34c845bff34c743438959, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b5de79a292187fd46a69437e171764d0, type: 3}
+    - target: {fileID: 4100886149052035900, guid: 3f9d0c73bdb34c845bff34c743438959, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.73
+      objectReference: {fileID: 0}
     - target: {fileID: 4607126450770610542, guid: 3f9d0c73bdb34c845bff34c743438959, type: 3}
       propertyPath: m_Name
       value: Boss
@@ -3589,6 +3601,14 @@ PrefabInstance:
     - target: {fileID: 8266138095657076509, guid: 3f9d0c73bdb34c845bff34c743438959, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8978866171398868551, guid: 3f9d0c73bdb34c845bff34c743438959, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8978866171398868551, guid: 3f9d0c73bdb34c845bff34c743438959, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
