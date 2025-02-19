@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 3
   tags:
   - Boss
+  - Bosshp
+  - BossBullet
+  - PlayerBullet
+  - DeathBackground
+  - Box
   layers:
   - Default
   - TransparentFX
